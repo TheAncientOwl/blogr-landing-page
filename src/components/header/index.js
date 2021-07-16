@@ -1,3 +1,14 @@
+import styled from 'styled-components';
+import Nav from './nav';
+import Content from './content';
+
+const Container = styled.div``;
+
 export default function Header() {
-  return <div></div>;
+  return (
+    <Container>
+      <Nav />
+      <Content />
+    </Container>
+  );
 }

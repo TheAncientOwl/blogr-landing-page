@@ -1,0 +1,2 @@
+(this["webpackJsonpblogr-landing-page"]=this["webpackJsonpblogr-landing-page"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var r=t(1),i=t.n(r),o=t(3),c=t.n(o),l=t(0);function s(){return Object(l.jsx)("div",{style:{textAlign:"center",marginTop:"20x",fontSize:"25px"},children:"~ Hello world! ~"})}t(9);c.a.render(Object(l.jsx)(i.a.StrictMode,{children:Object(l.jsx)(s,{})}),document.getElementById("root"))},9:function(e,n,t){}},[[10,1,2]]]);
+//# sourceMappingURL=main.37d4ef57.chunk.js.map

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/blogr-landing-page/static/css/main.8be9312a.chunk.css",
+    "main.js": "/blogr-landing-page/static/js/main.37d4ef57.chunk.js",
+    "main.js.map": "/blogr-landing-page/static/js/main.37d4ef57.chunk.js.map",
+    "runtime-main.js": "/blogr-landing-page/static/js/runtime-main.02123221.js",
+    "runtime-main.js.map": "/blogr-landing-page/static/js/runtime-main.02123221.js.map",
+    "static/js/2.fb129426.chunk.js": "/blogr-landing-page/static/js/2.fb129426.chunk.js",
+    "static/js/2.fb129426.chunk.js.map": "/blogr-landing-page/static/js/2.fb129426.chunk.js.map",
+    "index.html": "/blogr-landing-page/index.html",
+    "static/css/main.8be9312a.chunk.css.map": "/blogr-landing-page/static/css/main.8be9312a.chunk.css.map",
+    "static/js/2.fb129426.chunk.js.LICENSE.txt": "/blogr-landing-page/static/js/2.fb129426.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02123221.js",
+    "static/js/2.fb129426.chunk.js",
+    "static/css/main.8be9312a.chunk.css",
+    "static/js/main.37d4ef57.chunk.js"
+  ]
+}

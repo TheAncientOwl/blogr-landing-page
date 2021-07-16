@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 import Link from './link';
+import Colors from '../../../../Colors';
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+  color: ${Colors.white};
+`;
 
 export default function NavLinks() {
   return (

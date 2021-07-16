@@ -3,7 +3,11 @@ import Logo from './Logo';
 import NavLinks from './nav-links';
 import Register from './register';
 
-const Container = styled.nav``;
+const Container = styled.nav`
+  display: flex;
+  align-items: center;
+  padding: 3em 5em;
+`;
 
 export default function Nav() {
   return (

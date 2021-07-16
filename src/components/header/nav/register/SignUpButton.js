@@ -1,3 +1,5 @@
+import Button from '../../Button';
+
 export default function SignUpButton() {
-  return <div>Sign Up</div>;
+  return <Button>Sign Up</Button>;
 }

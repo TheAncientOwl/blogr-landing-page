@@ -1,5 +1,6 @@
-import { Container } from './LinkElements';
+import { ArrowContainer, Container } from './LinkElements';
 import PropTypes from 'prop-types';
+import ArrowSrc from '../../../../../images/icon-arrow-light.svg';
 
 /**
  *
@@ -8,7 +9,11 @@ import PropTypes from 'prop-types';
  */
 export default function Link({ title, links }) {
   links;
-  return <Container>{title}</Container>;
+  return (
+    <Container>
+      {title} <ArrowContainer src={ArrowSrc} alt='arrow' />
+    </Container>
+  );
 }
 
 Link.propTypes = {

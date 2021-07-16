@@ -6,7 +6,7 @@ import Register from './register';
 const Container = styled.nav`
   display: flex;
   align-items: center;
-  padding: 3em 5em;
+  padding: 0 5em;
 `;
 
 export default function Nav() {

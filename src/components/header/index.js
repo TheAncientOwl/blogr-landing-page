@@ -12,6 +12,7 @@ const Container = styled.div`
   border: 1px solid ${Colors.backgroundGradient.intro.lightRed};
   border-bottom-left-radius: 4em;
   overflow: hidden;
+  padding: 2em 0 8em 0;
 `;
 
 export default function Header() {

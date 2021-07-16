@@ -1,12 +1,16 @@
+import styled from 'styled-components';
+import Header from './components/header';
+import Content from './components/content';
+import Footer from './components/footer';
+
+const Container = styled.div``;
+
 export default function App() {
   return (
-    <div
-      style={{
-        textAlign: 'center',
-        marginTop: '20x',
-        fontSize: '25px',
-      }}>
-      ~ Hello world! ~
-    </div>
+    <Container>
+      <Header />
+      <Content />
+      <Footer />
+    </Container>
   );
 }

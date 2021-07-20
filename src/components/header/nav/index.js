@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Logo from './Logo';
 import NavLinks from './nav-links';
 import Register from './register';
+import Logo from '../../Logo';
 
 const Container = styled.nav`
   display: flex;

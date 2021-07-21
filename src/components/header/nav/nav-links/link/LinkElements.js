@@ -19,6 +19,10 @@ export const Accordion = styled.div``;
 export const ArrowContainer = styled.img`
   display: inline-block;
   margin-left: 0.3em;
+
+  transform: ${({ open }) => (open ? 'rotate(180deg)' : '')};
+
+  transition: 100ms ease;
 `;
 
 export const LinksMenu = styled.div`

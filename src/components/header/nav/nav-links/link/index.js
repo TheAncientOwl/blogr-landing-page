@@ -22,7 +22,7 @@ export default function NavMenu({ onClick, open, title, links }) {
   return (
     <Container onClick={onClick} open={open}>
       {title}
-      <ArrowContainer src={ArrowSrc} alt='arrow' />
+      <ArrowContainer src={ArrowSrc} alt='arrow' open={open} />
       {menu}
     </Container>
   );

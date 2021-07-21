@@ -41,7 +41,7 @@ export const Link = styled.a`
   text-decoration: none;
   color: ${Colors.veryDarkBlackBlue};
   font-size: 0.9em;
-  margin-bottom: 0.45em;
+  margin-bottom: 0.56em;
 
   transition: 80ms ease-out;
 

@@ -6,13 +6,21 @@ const Button = styled.div(
     cursor: pointer;
     display: inline-block;
 
-    border: 0.2em solid ${Colors.white};
+    border: 0.15em solid ${Colors.white};
     border-radius: 1.25em;
-    padding: 0.5em 1.25em;
+    padding: 0.6em 1.25em;
     font-weight: bold;
 
     background: ${inverted ? Colors.lightRed : Colors.white};
     color: ${inverted ? Colors.white : Colors.lightRed};
+
+    transition: 250ms ease;
+
+    :hover {
+      background: ${inverted ? Colors.white : Colors.lightRed};
+      color: ${inverted ? Colors.lightRed : Colors.white};
+      border: 0.15em solid ${inverted ? Colors.white : Colors.lightRed};
+    }
   `
 );
 

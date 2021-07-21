@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-import Link from './link';
+import NavMenu from './link';
 import Colors from '../../../../Colors';
+import NavLinksConfig from './NavLinksConfig';
+import { useState } from 'react';
 
 const Container = styled.div`
   display: flex;
@@ -8,12 +10,25 @@ const Container = styled.div`
   color: ${Colors.white};
 `;
 
+const InvalidMenuIndex = -1;
+
 export default function NavLinks() {
+  const [openIndex, setOpenIndex] = useState(InvalidMenuIndex);
+  openIndex, setOpenIndex;
+
   return (
     <Container>
-      <Link title='product' links={[]} />
-      <Link title='company' links={[]} />
-      <Link title='connect' links={[]} />
+      {NavLinksConfig.map((item, index) => (
+        <NavMenu
+          key={index}
+          onClick={() => {
+            setOpenIndex(index === openIndex ? InvalidMenuIndex : index);
+          }}
+          open={openIndex === index}
+          title={item.title}
+          links={item.links}
+        />
+      ))}
     </Container>
   );
 }
